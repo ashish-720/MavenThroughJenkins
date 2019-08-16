@@ -11,6 +11,7 @@ public class program1 {
 	public void m1() {
 		System.setProperty("webdriver.chrome.driver", "./SoftwaresNew/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
+		System.out.println("Hello jenkins");
 		driver.get("https://gmail.com");
 		driver.close();
 	}
