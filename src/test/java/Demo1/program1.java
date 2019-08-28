@@ -12,6 +12,7 @@ public class program1 {
 		System.setProperty("webdriver.chrome.driver", "./SoftwaresNew/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		System.out.println("Hello jenkins");
+		System.out.println("Hello sabya");
 		driver.get("https://gmail.com");
 		driver.close();
 	}
