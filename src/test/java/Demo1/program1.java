@@ -14,6 +14,7 @@ public class program1 {
 		System.out.println("Hello jenkins");
 		System.out.println("Hello sabya");
 		driver.get("https://gmail.com");
+		driver.get("https://facebook.com");
 		driver.close();
 	}
 }
